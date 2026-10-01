@@ -1,0 +1,54 @@
+# === Ficheiros do Ambiente e Segredos ===
+# Garante que chaves secretas, senhas e configurações locais não sobem para o repositório
+.env
+.env.*
+!.env.example
+instance/
+*.pyc
+
+# === Ambientes Virtuais do Python ===
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# === Cache do Python e Ficheiros Compilados ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# === Ficheiros de Upload / Mídia de Utilizadores ===
+# Se a sua aplicação permite upload de ficheiros, ignore a pasta de uploads
+uploads/
+static/uploads/
+
+# === Testes e Cobertura de Código ===
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# === Base de Dados Local / SQLite ===
+*.sqlite3
+*.db
+
+# === Logs e Ficheiros Temporários ===
+*.log
+logs/
+*.tmp
+
+# === Configurações de IDEs e Editores ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Pacotes e Builds de Distribuição ===
+build/
+dist/
+*.egg-info/
