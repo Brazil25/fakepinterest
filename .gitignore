@@ -1,9 +1,7 @@
 # === Ficheiros do Ambiente e Segredos ===
 # Garante que chaves secretas, senhas e configurações locais não sobem para o repositório
 .env
-.env.*
-!.env.example
-instance/
+.env.
 *.pyc
 
 # === Ambientes Virtuais do Python ===
@@ -31,10 +29,6 @@ static/uploads/
 .coverage.*
 coverage.xml
 htmlcov/
-
-# === Base de Dados Local / SQLite ===
-*.sqlite3
-*.db
 
 # === Logs e Ficheiros Temporários ===
 *.log
