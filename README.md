@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-Recriação do site Pinterest usando Flask.
-=======
 # Rede Social de Fotos (Clone do Pinterest) - Flask
 
 Clone do site da rede social de fotos Pinterest, utilizando o framework Flask.
@@ -96,4 +93,3 @@ Antes de começar, você precisará ter instalado em sua máquina:
 ## Licença
 
 Este projeto está sob a licença MIT.
->>>>>>> 8aef50d (Atualização do arquivo README.md e ajustes no código)
